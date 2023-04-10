@@ -1,3 +1,4 @@
+
 Feature:Kullanici amazon anasayfasinda arama yapar
 
   @amazon
@@ -7,3 +8,4 @@ Feature:Kullanici amazon anasayfasinda arama yapar
     Then kullanici Nutella icin arama yapar
     And kullanici Nutella icerdigini test eder
     And sayfayi kapatir
+
