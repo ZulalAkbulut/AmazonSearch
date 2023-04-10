@@ -24,8 +24,10 @@ public class AmazonStepDefinitions {
     public void kullanici_nutella_icerdigini_test_eder() {
         String arananKelime = "Nutella";
         String actualAramaSonucStr = amazonPage.aramaSonucElementi.getText();
-
         Assert.assertTrue(actualAramaSonucStr.contains(arananKelime));
+
+
+
     }
     @Then("sayfayi kapatir")
     public void sayfayi_kapatir() {
